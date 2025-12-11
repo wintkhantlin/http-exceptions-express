@@ -7,9 +7,7 @@ A simple, TypeScript-friendly middleware for handling HTTP exceptions in Express
 ## Installation
 
 ```bash
-npm install express-http-exceptions
-# or
-yarn add express-http-exceptions
+npm install @happer64bit/http-exceptions-express
 ````
 
 ---
