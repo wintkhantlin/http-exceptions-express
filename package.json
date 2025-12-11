@@ -1,0 +1,21 @@
+{
+  "name": "http-exceptions-express",
+  "type": "module",
+  "version": "0.1.0",
+  "peerDependencies": {
+    "express": "^5.2.1",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
