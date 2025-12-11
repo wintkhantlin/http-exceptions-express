@@ -18,7 +18,7 @@ npm install @happer64bit/http-exceptions-express
 
 ```ts
 import express from "express";
-import { httpExceptionMiddleware, NotFoundException } from 'express-http-exceptions';
+import { httpExceptionMiddleware, NotFoundException } from '@happer64bit/http-exceptions-express';
 
 const app = express();
 
@@ -62,7 +62,7 @@ A prebuilt `HttpException` with `status = 404` and `message = "Not Found"`.
 ## Creating Custom Exceptions
 
 ```ts
-import { HttpException } from 'express-http-exceptions';
+import { HttpException } from '@happer64bit/http-exceptions-express';
 
 class UnauthorizedException extends HttpException {
     constructor(message = "Unauthorized") {
