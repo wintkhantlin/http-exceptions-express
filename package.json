@@ -1,7 +1,7 @@
 {
   "name": "http-exceptions-express",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "peerDependencies": {
     "express": "^5.2.1",
     "typescript": "^5"
