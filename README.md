@@ -7,7 +7,7 @@ A simple, TypeScript-friendly middleware for handling HTTP exceptions in Express
 ## Installation
 
 ```bash
-npm install @happer64bit/http-exceptions-express
+npm install http-exceptions-express
 ````
 
 ---
@@ -18,7 +18,7 @@ npm install @happer64bit/http-exceptions-express
 
 ```ts
 import express from "express";
-import { httpExceptionMiddleware, NotFoundException } from '@happer64bit/http-exceptions-express';
+import { httpExceptionMiddleware, NotFoundException } from 'http-exceptions-express';
 
 const app = express();
 
